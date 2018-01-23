@@ -2,8 +2,10 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 import java.util.function.Consumer;
 
 /*
@@ -109,6 +111,15 @@ public class BelajarCollection {
                 + (n1.nilai - n2.nilai));
         daftar.forEach(System.out::println);
 
+        //Set
+        Set<Integer> a1 = new HashSet<>();
+        a1.add(10);
+        a1.add(5);
+        a1.add(10);
+        a1.add(23);
+        a1.forEach(System.out::println);
+        
+        
         //java8, using lambda (anonymous function)
         /*ts.sort(p1, p2)-> new Double(p1.getPrice() - p2.getPrice()).intValue());*/
     }

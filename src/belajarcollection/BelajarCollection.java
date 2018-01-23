@@ -119,7 +119,6 @@ public class BelajarCollection {
         a1.add(23);
         a1.forEach(System.out::println);
         
-        
         //java8, using lambda (anonymous function)
         /*ts.sort(p1, p2)-> new Double(p1.getPrice() - p2.getPrice()).intValue());*/
     }
